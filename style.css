@@ -1,0 +1,27 @@
+html,
+body {
+  background-color: #ffdab9;
+}
+#line {
+  font-size: 40px;
+  color: #008000;
+}
+table {
+  border: 1px solid #228b22;
+  background: #99cc33;
+}
+th {
+  text-align: center;
+  border: 1px solid #1e9e6d;
+}
+td {
+  text-align: center;
+  border: 1px solid #16a16c;
+  font-size: 0.8em;
+}
+tr.even {
+  background: #ffff00;
+}
+.footer {
+  color: #008000;
+}
