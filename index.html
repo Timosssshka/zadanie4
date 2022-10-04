@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Главная</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid page" style="background-color: #c2e69e">
+        <div class="container">
+        <div class="row">
+          <div class="col-5 offset-5 col-md-4 offset-md-1 order-2">
+            <div class="h-100 py-3">
+              <div id="line">
+                <a>Главная</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-1 col-md-4 order-1">
+            <div class="h-100 py-3">
+              <div id="logo">
+                <img
+                  src="https://i.ibb.co/Wxq7Vyn/image.png"
+                  width="100"
+                  height="100"
+                  alt="name"
+                />
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="container" style="background-color: #c2e69e">
+        <div class="row m-3">
+          <div class="col-12 col-md-12">
+            <ul class="menu nav flex-column nav flex-md-row nav justify-content-md-center">
+              <li class="mr-4"><a href="#Ссылки" title="Нумированный список гиперссылок">Гиперссылки</a></li>
+              <li class="mr-4"><a  href="#Таблица" title="Таблица с контентом">Таблица</a></li>
+              <li class="mr-4"><a href="#Форма" title="Перейти к заполнению формы">Форма</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container" style="background-color: #c2e69e">
+      <div class="row">
+        <div class="col-md-6 order-2">
+            <h4 id="Ссылки">Гиперссылки</h4>
+            <ol>
+              <li><a href="http://example.com/">Задание 1</a></li>
+              <li><a href="https://example.com/">Задание 2</a></li>
+              <li><a href="ftp://example.com/Temp/file.txt">Задание 3</a></li>
+              <li>
+                <a href="ftp://user:password@example.com/Temp/file.txt"
+                  >Задание 4</a
+                >
+              </li>
+              <li><a href="https://example.com#Информация">Задание 5</a></li>
+              <li><a href="#Информация_сайта">Задание 6</a></li>
+              <li>
+                <a href="http://example.com?name=Anton&surname=Usov"
+                  >Задание 7</a
+                >
+              </li>
+              <li>
+                <ul>
+                  <li>
+                    <a
+                      href="http://example.com/menu/main/"
+                      title="Освновная страница сайта"
+                      >Главная страница</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="http://example.com/menu/helper/"
+                      title="Контактные данные"
+                      >Помощь</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><a>https://example.com/</a></li>
+              <li><a href=" ">Задание 10</a></li>
+              <li>
+                <a href="http://example.com/" rel="nofollow">Задание 11</a>
+              </li>
+              <li>
+                <!--noindex--><a href="http://example.com/menu">Задание 12</a
+                ><!--/noindex-->
+              </li>
+              <li>Задание <a href="https://example.com">13</a></li>
+              <li>
+                <a href="http://example.com"
+                  ><img
+                    src="https://i.ibb.co/qFLNsNr/image.jpg"
+                    height="50"
+                    width="50"
+                    alt="flower"
+                /></a>
+              </li>
+              <li>
+                <map name="map1">
+                  <area
+                    shape="circle"
+                    coords="85,85,65"
+                    href="http://example.com"
+                    alt="circle"
+                  />
+                  <area
+                    shape="rect"
+                    coords="164,10,290,140"
+                    href="http://example.com/"
+                    alt="square"
+                  />
+                </map>
+                <img
+                  usemap="#map1"
+                  src="https://i.ibb.co/d5nHNQ0/Figures.jpg"
+                  width="301"
+                  height="174"
+                  alt="shapes"
+                />
+              </li>
+              <li><a href="index.html">Задание 16</a></li>
+              <li><a href="about">Задание 17</a></li>
+              <li><a href="../index.html">Задание 18</a></li>
+              <li><a href="../../index.html">Задание 19</a></li>
+              <li><a href="/">Задание 20</a></li>
+              <li><a href="/about">Задание 21</a></li>
+            </ol>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container__row d-flex flex-column">
+        <div class="row mt-3 order-3 order-sm-2" style="background-color: #c2e69e">
+          <div class="col-12 col-md-6">
+        <div class="table">
+            <h4 id="Таблица">Таблица</h4>
+            <table class="table table-bordered border-primary">
+            <tr class="even">
+            <th>Дата</th>
+            <th>Время</th>
+            <th>Планы</th>
+            </tr>
+            <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            </tr>
+            <tr class="even">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            </tr>
+            <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            </tr>
+            <tr class="even">
+            <td colspan="3">Объединённая ячейчка</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+        </div>
+
+          <div class="row mt-3 order-2 order-sm-3" style="background-color: #c2e69e">
+            <div class="col-12 col-md-6">
+        <h4 id="Форма">Форма HTML</h4>
+        <form action="URL_отправки_данных" method="POST">
+          <label>
+            Имя:
+            <br />
+            <input name="field-name-1" value="Введите имя" /> </label
+          ><br />
+          <label>
+            Почта:
+            <br />
+            <input
+              name="field-email"
+              value="Ваша электронная почта"
+              type="email"
+            />
+          </label>
+          <br />
+          <label>
+            Дата рождения:
+            <br />
+            <input name="field-date" value="2019-08-13" type="date" />
+          </label>
+          <br />
+          Пол:
+          <br />
+          <label>
+            <input
+              type="radio"
+              checked="checked"
+              name="radio-group-0"
+              value="М"
+            />М
+          </label>
+          <label> <input type="radio" name="radio-group-0" value="Ж" />Ж </label
+          ><br />
+          Кол-во конечностей:
+          <br />
+          <label>
+            <input
+              type="radio"
+              checked="checked"
+              name="radio-group-1"
+              value="Значение1"
+            />1</label
+          >
+          <label>
+            <input
+              type="radio"
+              name="radio-group-1"
+              value="Значение2"
+            />2</label
+          >
+          <label>
+            <input
+              type="radio"
+              name="radio-group-1"
+              value="Значение3"
+            />3</label
+          >
+          <label>
+            <input
+              type="radio"
+              name="radio-group-1"
+              value="Значение4"
+            />4</label
+          >
+          <label>
+            <input
+              type="radio"
+              name="radio-group-1"
+              value="Значение5"
+            />5</label
+          >
+          <br />
+          <label>
+            Сверхспособности:
+            <br />
+            <select name="field-name-3[]" multiple="multiple">
+              <option value="Значение1">Бессмертие</option>
+              <option value="Значение2" selected="selected">
+                Прохождение сквозь стены
+              </option>
+              <option value="Значение3" selected="selected">Левитация</option>
+            </select></label
+          >
+          <br />
+          <label>
+            Биография:
+            <br />
+            <textarea name="field-name-2">Напишите свою биографию</textarea>
+          </label>
+          <br />
+          <br />
+          <label
+            >C контрактом ознакомлен(а)<input type="checkbox" name="check-1"
+          /></label>
+          <br />
+          Отправить форму:
+          <input type="submit" value="Отправить" />
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+    <div class="container-fluid page mt-3" style="background-color: #c2e69e">
+      <footer class="footer" id="foot">
+        <h4>(с) Охотников Тимофей 2022</h4>
+      </footer>
+    </div>
+  </body>
+</html>
